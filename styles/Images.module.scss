@@ -1,0 +1,82 @@
+.imagesContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    padding: 10px;
+    min-height: 70vh;
+}
+.imageBox{
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    min-height: 100%;
+    z-index: 10;
+}
+.col{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+.imageBoxOverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: black, $alpha: 0.7);
+    opacity: 0;
+    transition: ease .3s;
+    cursor: pointer;
+    z-index: 100;
+}
+.imageBoxOverlay:hover{
+    opacity: 1;
+}
+
+.imageBoxOverlay p{
+    color: white;
+}
+.noImages{
+    text-align: center;
+    padding: 50px;
+}
+
+@media screen and (max-width: 1300px){
+    .imagesContainer{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width: 991px){
+    .imagesContainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 768px){
+    .imagesContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 576px){
+    .imagesContainer{
+        grid-template-columns: 1fr;
+    }
+    .imageBox{
+        height:300px;
+    }
+}
+@media screen and (max-width: 447px){
+    .imageBox{
+        height:200px;
+    }
+    .imagesContainer{
+        padding: 5px;
+    }
+}

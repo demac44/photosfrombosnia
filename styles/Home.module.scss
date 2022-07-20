@@ -1,0 +1,12 @@
+.introText{
+    width: 100%;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .introText{
+        font-size: 25px;
+    }
+}

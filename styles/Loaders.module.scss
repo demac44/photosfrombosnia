@@ -1,0 +1,24 @@
+.screenLoader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 7px solid black;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    animation-name: loader;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loader {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}

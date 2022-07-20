@@ -1,0 +1,90 @@
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(50, 75, 97);
+}
+.logo{
+    cursor: pointer;
+    color: white;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.links p{
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.links p:hover{
+    color: rgb(192, 192, 192);
+}
+.navbarRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.uploadImgBtn{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: ease .3s;
+    cursor: pointer;
+}
+.uploadImgBtn p{
+    color: white;
+    font-size: 18px;
+}
+.uploadImgBtn:hover{
+    background-color: rgb(79, 118, 152);
+}
+
+.changeLangBtn{
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .navbarRight{
+        margin-top: 20px;
+    }
+    .logo{
+        font-size: 28px;
+    }
+    .links p{
+        font-size: 16px;
+    }
+    .changeLangBtn{
+        width: 100px;
+        height: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 447px) {
+    .links p{
+        font-size: 14px;
+    }
+
+    .changeLangBtn{
+        width: 80px;
+        height: 30px;
+    }
+}
