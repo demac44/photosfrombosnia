@@ -21,8 +21,8 @@ Web application for searching images from Bosnia and Herzegovina.
 
 
 
-[img1]: https://github.com/demac44/photosfrombosnia/blob/main/assets/images/screens/home.png
-[img2]: https://github.com/demac44/photosfrombosnia/blob/main/assets/images/screens/panel.png
-[img3]: https://github.com/demac44/photosfrombosnia/blob/main/assets/images/screens/similar.png
-[img4]: https://github.com/demac44/photosfrombosnia/blob/main/assets/images/screens/upload.png
+[img1]: https://github.com/demac44/photosfrombosnia/blob/master/assets/images/screens/home.png
+[img2]: https://github.com/demac44/photosfrombosnia/blob/master/assets/images/screens/panel.png
+[img3]: https://github.com/demac44/photosfrombosnia/blob/master/assets/images/screens/similar.png
+[img4]: https://github.com/demac44/photosfrombosnia/blob/master/assets/images/screens/upload.png
 
